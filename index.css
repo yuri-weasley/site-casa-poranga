@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Formatação do cabeçalho */
+header {
+    background-color: #AF4B27;
+    margin: auto;
+}
+header p {
+    font-size: 17pt;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
+}
+header img {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    left: 633px;
+    height: 135px;
+    width: 240px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+/* Formatação do Menu */
+nav {
+    background-color: #AF4B27;
+}
+div img#logo_insta {
+    border-radius: 50%;
+    position: absolute;
+    left: 1440px;
+    top: 165px;
+    width: 43px;
+    height: 43px;
+}
+div img#logo_wpp {
+    border-radius: 50%;
+    position: absolute;
+    left: 1385px;
+    top: 165px;
+    width: 43px;
+    height: 43px;
+}
+div img#logo_insta:hover {
+    border: 1px solid white;
+}
+div img#logo_wpp:hover {
+    border: 1px solid white;
+}
+nav a {
+    margin: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+nav a:hover {
+    color: #AF4B27;
+    background-color: white;
+}
+
+/* Formatação do conteúdo central da página */
+main {
+    height: 100vh;
+    width: 100vw;
+}
+section#imagem1 {
+    background-position: top left;
+    display: block;
+}
+aside#texto1 {
+    background-color: white;
+    display: block;
+    float: right;
+}
+aside#texto1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    background-color: #AF4B27;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 500px;
+    font-size: 20pt;
+    text-align: justify;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.542);
+    border: 1px solid rgba(0, 0, 0, 0.477);
+}
+
+/* ---Formatação do álbum de fotos--- */
+
+/* Fotos dos Sofás */
+ul#fotos_sofas {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#fotos_sofas li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 1s ease-in;
+}
+ul#fotos_sofas li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#fotos_sofas li#sofa01 {
+    background: url(album_fotos/sofa1.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_sofas li#sofa01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos_sofas li#sofa02 {
+    background: url(album_fotos/sofa2.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_sofas li#sofa02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos_sofas li#sofa03 {
+    background: url(album_fotos/sofa3.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_sofas li#sofa03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/* Fotos dos espelhos */
+
+ul#fotos_espelhos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#fotos_espelhos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 1s ease-in;
+}
+ul#fotos_espelhos li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#fotos_espelhos li#espelho01 {
+    background: url(album_fotos/espelho1.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_espelhos li#espelho01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos_espelhos li#espelho02 {
+    background: url(album_fotos/espelho2.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_espelhos li#espelho02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos_espelhos li#espelho03 {
+    background: url(album_fotos/espelho3.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_espelhos li#espelho03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos_espelhos li#espelho04 {
+    background: url(album_fotos/espelho4.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_espelhos li#espelho04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos_espelhos li#espelho05 {
+    background: url(album_fotos/espelho5.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_espelhos li#espelho05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#fotos_espelhos li#espelho06 {
+    background: url(album_fotos/espelho6.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_espelhos li#espelho06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/* Fotos dos quadros */
+
+ul#fotos_quadros {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#fotos_quadros li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 1s ease-in;
+}
+ul#fotos_quadros li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#fotos_quadros li#quadro01 {
+    background: url(album_fotos/quadro1.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#fotos_quadros li#quadro01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/* Formatação do rodapé */
+footer {
+    color: white;
+    background-color: #AF4B27;
+    text-align: center;
+    padding: 5px;
+}
