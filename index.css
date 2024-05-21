@@ -4,57 +4,48 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* Formatação do cabeçalho */
-header {
+.cabecalho {
+    display: flex;
     background-color: #AF4B27;
-    margin: auto;
+    flex-direction: column;
+    align-items: center;
 }
-header p {
-    font-size: 17pt;
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
-}
-header img {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    left: 633px;
-    height: 135px;
-    width: 240px;
+.cabecalho img {
+    width: 250px;
     border-radius: 40px;
-    margin: 10px;
+    padding-top: 10px;
+}
+.cabecalho p {
+    color: white;
+    font-size: 17pt;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
 }
 
 /* Formatação do Menu */
-nav {
+.menu {
     background-color: #AF4B27;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-div img#logo_insta {
+.sociais {
+    display: flex;
+    flex-direction: row;
+}
+.sociais img {
+    width: 40px;
     border-radius: 50%;
-    position: absolute;
-    left: 1440px;
-    top: 165px;
-    width: 43px;
-    height: 43px;
+    margin: 5px;
 }
-div img#logo_wpp {
-    border-radius: 50%;
-    position: absolute;
-    left: 1385px;
-    top: 165px;
-    width: 43px;
-    height: 43px;
-}
-div img#logo_insta:hover {
+.sociais img:hover {
     border: 1px solid white;
 }
-div img#logo_wpp:hover {
-    border: 1px solid white;
-}
-nav a {
+.produtos a {
     margin: 5px;
     text-transform: uppercase;
     display: inline-block;
@@ -64,30 +55,19 @@ nav a {
     border-radius: 5px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
-nav a:hover {
+.produtos a:hover {
     color: #AF4B27;
     background-color: white;
 }
 
 /* Formatação do conteúdo central da página */
-main {
-    height: 100vh;
-    width: 100vw;
+.conteudo_principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
-section#imagem1 {
-    background-position: top left;
-    display: block;
-}
-aside#texto1 {
-    background-color: white;
-    display: block;
-    float: right;
-}
-aside#texto1 p {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 400px;
-    left: 850px;
+.texto {
     background-color: #AF4B27;
     color: white;
     padding: 10px;
@@ -97,6 +77,7 @@ aside#texto1 p {
     text-align: justify;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.542);
     border: 1px solid rgba(0, 0, 0, 0.477);
+    margin-right: 90px;
 }
 
 /* ---Formatação do álbum de fotos--- */
@@ -270,7 +251,7 @@ ul#fotos_quadros li#quadro01:hover {
 }
 
 /* Formatação do rodapé */
-footer {
+.rodape {
     color: white;
     background-color: #AF4B27;
     text-align: center;
