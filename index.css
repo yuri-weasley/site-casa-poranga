@@ -79,12 +79,40 @@
     border: 1px solid rgba(0, 0, 0, 0.477);
     margin-right: 90px;
 }
+.aviso_compras {
+    display: block;
+    margin: auto;
+    margin-top: 140px;
+    width: 500px;
+    background-color: #AF4B27;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.450);
+}
+.aviso_compras h1 {
+    padding-bottom: 5px;
+}
+.aviso_compras a#wpp {
+    background-color: white;
+    text-decoration: none;
+    color: #AF4B27;
+    border-radius: 10px;
+    padding: 4px;
+    position: relative;
+    top: 7px;
+    left: 42%;
+    text-align: center;
+}
+.aviso_compras a#wpp:hover {
+    font-weight: bold;
+}
 
 /* ---Formatação do álbum de fotos--- */
 
 /* Fotos dos Sofás */
 ul#fotos_sofas {
-    width: 700px;
+    width: 760px;
     margin: 0 auto;
     padding: 50px;
     overflow: hidden;
@@ -136,8 +164,8 @@ ul#fotos_sofas li#sofa03:hover {
 
 /* Fotos dos espelhos */
 
-ul#fotos_espelhos {
-    width: 700px;
+/* ul geralzona */ul#fotos_espelhos {
+    width: 800px;
     margin: 0 auto;
     padding: 50px;
     overflow: hidden;
