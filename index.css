@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --fonte1: "DM Serif Display", serif;
+    --fonte2: 'Open Sauce One', sans-serif;
+    --corFundo: #FAEFE0;
+    --pretoTitulos: #282A29;
+    --laranjaEscuro: #AF4B27;
+    --laranjaClaro: #E87F3B;
+    --laranjaSimbolo: #E17E45;
+    --rosaMedio: #EFA593;
+    --rosaClaro: #FDB3CB;
+    --verdeEscuro: #5D7F64;
+    --verdeClaro: #97D8A5;
+    --amarelo: #F3B551;
+}
+body {
+    background-color: var(--corFundo);
+}
+
+/* Configuração do cabeçalho */
+header {
+    font-family: var(--fonte2);
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid var(--laranjaEscuro);
+}
+header .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .menu a {
+    text-decoration: none;
+    color: var(--pretoTitulos);
+    margin: 10px;
+}
+header .menu .contato {
+    padding-left: 15px;
+    background-color: var(--rosaClaro);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+header .menu .contato img {
+    background-color: var(--laranjaSimbolo);
+    border-radius: 30px;
+    padding: 10px;
+}
