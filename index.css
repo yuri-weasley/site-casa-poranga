@@ -62,3 +62,19 @@ header .menu .contato img {
     border-radius: 30px;
     padding: 10px;
 }
+
+/* Configuração da primeira div do main */
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.apresentacao h1 {
+    font-family: var(--fonte1);
+    font-size: 96px;
+    font-weight: 100;
+}
+.apresentacao p {
+    font-family: var(--fonte2);
+    font-size: 26px;
+}
