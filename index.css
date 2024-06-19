@@ -68,13 +68,53 @@ header .menu .contato img {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+.apresentacao_texto {
+    margin: 100px;
+}
+.apresentacao_imagem {
+    margin: 100px;
+}
+.apresentacao_imagem img {
+    border-radius: 20px;
 }
 .apresentacao h1 {
     font-family: var(--fonte1);
-    font-size: 96px;
+    font-size: 106px;
     font-weight: 100;
+    line-height: 90px;
+    margin-bottom: 40px;
 }
 .apresentacao p {
     font-family: var(--fonte2);
-    font-size: 26px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.apresentacao .botoes_apresentacao {
+    margin: 20px;
+    margin-top: 70px;
+}
+.apresentacao .botoes_apresentacao a {
+    margin: 15px;
+}
+.apresentacao .btn_saiba_mais {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--fonte2);
+    background-color: var(--laranjaClaro);
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.apresentacao .btn_contato {
+    font-family: var(--fonte2);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--pretoTitulos);
+    background-color: var(--rosaClaro);
+    padding: 20px;
+    border-radius: 40px;
+    text-decoration: none;
 }
