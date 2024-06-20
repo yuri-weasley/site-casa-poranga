@@ -125,7 +125,7 @@ header .menu .contato img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 10px;
 }
 .produtos img {
@@ -136,6 +136,7 @@ header .menu .contato img {
     height: 30px;
     width: 30px;
 }
+
 .produtos .espelhos {
     display: flex;
     flex-direction: column;
@@ -160,6 +161,34 @@ header .menu .contato img {
     align-items: center;
     flex-direction: row;
     background-color: #FFA857;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.produtos .estofados {
+    display: flex;
+    flex-direction: column;
+}
+.produtos .estofados .imagem_estofados {
+    height: 320px;
+    width: 300px;
+}
+.produtos .estofados .texto_estofados {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--rosaMedio);
+    font-family: var(--fonte2);
+    font-size: 24px;
+    border-radius: 0px 0px 20px 20px;
+}
+.produtos .estofados .texto_estofados a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--rosaClaro);
     border-radius: 30px;
     padding: 10px;
 }
