@@ -118,3 +118,48 @@ header .menu .contato img {
     border-radius: 40px;
     text-decoration: none;
 }
+
+/* Configuração da segunda div do main */
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.produtos img {
+    height: auto;
+    width: 300px;
+}
+.produtos .setinha {
+    height: 30px;
+    width: 30px;
+}
+.produtos .espelhos {
+    display: flex;
+    flex-direction: column;
+}
+.produtos .espelhos .imagem_espelhos {
+    height: 330px;
+    width: 300px;
+}
+.produtos .espelhos .texto_espelhos {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--laranjaEscuro);
+    font-family: var(--fonte2);
+    font-size: 24px;
+    border-radius: 0px 0px 20px 20px;
+}
+.produtos .espelhos .texto_espelhos a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FFA857;
+    border-radius: 30px;
+    padding: 10px;
+}
