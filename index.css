@@ -197,11 +197,11 @@ header .menu .contato img {
     display: flex;
     flex-direction: column;
 }
-.produtos .estofados .imagem_outros {
+.produtos .outros .imagem_outros {
     height: 320px;
     width: 300px;
 }
-.produtos .estofados .texto_outros {
+.produtos .outros .texto_outros {
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -212,11 +212,11 @@ header .menu .contato img {
     font-size: 24px;
     border-radius: 0px 0px 20px 20px;
 }
-.produtos .estofados .texto_estofados a {
+.produtos .outros .texto_outros a {
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: var(--rosaClaro);
+    background-color: var(--verdeClaro);
     border-radius: 30px;
     padding: 10px;
 }
