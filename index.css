@@ -192,3 +192,31 @@ header .menu .contato img {
     border-radius: 30px;
     padding: 10px;
 }
+
+.produtos .outros {
+    display: flex;
+    flex-direction: column;
+}
+.produtos .estofados .imagem_outros {
+    height: 320px;
+    width: 300px;
+}
+.produtos .estofados .texto_outros {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--verdeEscuro);
+    font-family: var(--fonte2);
+    font-size: 24px;
+    border-radius: 0px 0px 20px 20px;
+}
+.produtos .estofados .texto_estofados a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--rosaClaro);
+    border-radius: 30px;
+    padding: 10px;
+}
