@@ -57,6 +57,10 @@ header .menu .contato {
     align-items: center;
     width: 150px;
 }
+header .menu a.contato:hover {
+    text-decoration: underline;
+    color: black;
+}
 header .menu .contato img {
     background-color: var(--laranjaSimbolo);
     border-radius: 30px;
@@ -98,6 +102,10 @@ header .menu .contato img {
 .apresentacao .botoes_apresentacao a {
     margin: 15px;
 }
+.apresentacao .botoes_apresentacao a.btn_contato:hover {
+    text-decoration: underline;
+    color: black;
+}
 .apresentacao .btn_saiba_mais {
     font-size: 20px;
     font-weight: bold;
@@ -119,6 +127,7 @@ header .menu .contato img {
     text-decoration: none;
 }
 
+
 /* Configuração da segunda div do main */
 
 .produtos {
@@ -126,7 +135,7 @@ header .menu .contato img {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 50px;
+    margin: 50px 50px 100px 50px;
 }
 .produtos img {
     height: auto;
@@ -233,11 +242,11 @@ header .menu .contato img {
     justify-content: space-between;
 }
 
-.contatoELinks .texto_contato{
+.contatoELinks .texto_contato {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 200px;
+    padding: 0px 200px 0px 200px;
 }
 .contatoELinks .texto_contato .paragrafo h1 {
     font-family: var(--fonte1);
@@ -264,14 +273,42 @@ header .menu .contato img {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
+}.contatoELinks .links img.cartinha {
+    height: 15px;
+    width: 20px;
+}.contatoELinks .links img.pinterest {
+    border-radius: 4px;
 }
 .contatoELinks .links img {
-    height: 30px;
-    width: auto;
+    margin-right: 20px;
+    height: 19px;
+    width: 20px;
 }
 .contatoELinks .links a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.contatoELinks .links a p {
+    color: #BA4B2F;
+    font-size: 21px;
+    font-family: var(--fonte2);
+}
+.contatoELinks .links a:hover {
+    text-decoration: underline #BA4B2F;
+}
+
+.contatoELinks .texto_contato a.converse_conosco {
     font-family: var(--fonte2);
     font-size: 21px;
-    color: #BA4B2F;
     text-decoration: none;
+    background-color: var(--laranjaClaro);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+.contatoELinks .texto_contato a.converse_conosco:hover {
+    text-decoration: underline white;
 }
