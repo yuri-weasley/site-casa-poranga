@@ -136,6 +136,9 @@ header .menu .contato img {
     height: 30px;
     width: 30px;
 }
+.produtos p {
+    color: black;
+}
 
 .produtos .espelhos {
     display: flex;
@@ -223,10 +226,52 @@ header .menu .contato img {
 
 /* Configuração da terceira div do main */
 
-.contato {
+.contatoELinks {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 100px;
+}
+
+.contatoELinks .texto_contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px;
+}
+.contatoELinks .texto_contato .paragrafo h1 {
+    font-family: var(--fonte1);
+    font-size: 42px;
+    font-weight: 100;
+    text-align: center;
+}
+.contatoELinks .texto_contato .paragrafo h2, p {
+    font-family: var(--fonte2);
+    color: #545755;
+}
+.contatoELinks .texto_contato .paragrafo h2 {
+    margin-top: 40px;
+    font-weight: lighter;
+    font-size: 32px;
+    text-align: justify;
+}
+.contatoELinks .texto_contato .paragrafo p {
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.contatoELinks .links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contatoELinks .links img {
+    height: 30px;
+    width: auto;
+}
+.contatoELinks .links a {
+    font-family: var(--fonte2);
+    font-size: 21px;
+    color: #BA4B2F;
+    text-decoration: none;
 }
