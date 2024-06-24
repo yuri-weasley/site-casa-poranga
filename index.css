@@ -126,7 +126,7 @@ header .menu .contato img {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 10px;
+    margin: 50px;
 }
 .produtos img {
     height: auto;
@@ -219,4 +219,14 @@ header .menu .contato img {
     background-color: var(--verdeClaro);
     border-radius: 30px;
     padding: 10px;
+}
+
+/* Configuração da terceira div do main */
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
 }
