@@ -28,7 +28,7 @@ body {
 header {
     font-family: var(--fonte2);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
@@ -70,7 +70,7 @@ header .menu .contato img {
     padding: 10px;
 }
 
-/* Configuração da primeira div do main */
+/* Configuração da primeira section do main */
 .apresentacao {
     display: flex;
     flex-direction: row;
@@ -88,14 +88,14 @@ header .menu .contato img {
 }
 .apresentacao h1 {
     font-family: var(--fonte1);
-    font-size: 106px;
+    font-size: 6.625rem;
     font-weight: 100;
     line-height: 90px;
     margin-bottom: 40px;
 }
 .apresentacao p {
     font-family: var(--fonte2);
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-top: 40px;
 }
 .apresentacao .botoes_apresentacao {
@@ -110,7 +110,7 @@ header .menu .contato img {
     color: black;
 }
 .apresentacao .btn_saiba_mais {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     font-family: var(--fonte2);
     background-color: var(--laranjaClaro);
@@ -121,7 +121,7 @@ header .menu .contato img {
 }
 .apresentacao .btn_contato {
     font-family: var(--fonte2);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: var(--pretoTitulos);
     background-color: var(--rosaClaro);
@@ -131,7 +131,7 @@ header .menu .contato img {
 }
 
 
-/* Configuração da segunda div do main */
+/* Configuração da segunda section do main */
 
 .produtos {
     display: flex;
@@ -168,7 +168,7 @@ header .menu .contato img {
     justify-content: space-around;
     background-color: var(--laranjaEscuro);
     font-family: var(--fonte2);
-    font-size: 24px;
+    font-size: 1.5rem;
     border-radius: 0px 0px 20px 20px;
 }
 .produtos .espelhos .texto_espelhos a {
@@ -199,7 +199,7 @@ header .menu .contato img {
     justify-content: space-around;
     background-color: var(--rosaMedio);
     font-family: var(--fonte2);
-    font-size: 24px;
+    font-size: 1.5rem;
     border-radius: 0px 0px 20px 20px;
 }
 .produtos .estofados .texto_estofados a {
@@ -227,7 +227,7 @@ header .menu .contato img {
     justify-content: space-around;
     background-color: var(--verdeEscuro);
     font-family: var(--fonte2);
-    font-size: 24px;
+    font-size: 1.5rem;
     border-radius: 0px 0px 20px 20px;
 }
 .produtos .outros .texto_outros a {
@@ -239,7 +239,7 @@ header .menu .contato img {
     padding: 10px;
 }
 
-/* Configuração da terceira div do main */
+/* Configuração da terceira section do main */
 
 .contatoELinks {
     display: flex;
@@ -256,7 +256,7 @@ header .menu .contato img {
 }
 .contatoELinks .texto_contato .paragrafo h1 {
     font-family: var(--fonte1);
-    font-size: 42px;
+    font-size: 2.625rem;
     font-weight: 100;
     text-align: center;
 }
@@ -267,12 +267,12 @@ header .menu .contato img {
 .contatoELinks .texto_contato .paragrafo h2 {
     margin-top: 40px;
     font-weight: lighter;
-    font-size: 32px;
+    font-size: 2rem;
     text-align: justify;
 }
 .contatoELinks .texto_contato .paragrafo p {
     margin: 20px 0px 0px 0px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .contatoELinks .links {
@@ -300,7 +300,7 @@ header .menu .contato img {
 }
 .contatoELinks .links a p {
     color: #BA4B2F;
-    font-size: 21px;
+    font-size: 1.312rem;
     font-family: var(--fonte2);
 }
 .contatoELinks .links a:hover {
@@ -309,7 +309,7 @@ header .menu .contato img {
 
 .contatoELinks .texto_contato a.converse_conosco {
     font-family: var(--fonte2);
-    font-size: 21px;
+    font-size: 1.312rem;
     text-decoration: none;
     background-color: var(--laranjaClaro);
     color: white;
@@ -321,7 +321,7 @@ header .menu .contato img {
     text-decoration: underline white;
 }
 
-/* Configuração da div 4 */
+/* Configuração da section 4 */
 
 .espelhos_organicos {
     display: flex;
@@ -330,7 +330,7 @@ header .menu .contato img {
     margin: 35px 30px 30px 30px;
 }
 .espelhos_organicos h1 {
-    font-size: 42px;
+    font-size: 2.265rem;
     margin-top: 34px;
     margin-bottom: 40px;
 } 
@@ -355,11 +355,11 @@ header .menu .contato img {
     margin-bottom: 15px;
 }
 .espelhos_organicos ul li h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .espelhos_organicos ul li p {
     color: black;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .espelhos_organicos a {
@@ -371,7 +371,7 @@ header .menu .contato img {
     border-radius: 50px;
     font-weight: bold;
     margin: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .espelhos_organicos a:hover {
     text-decoration: underline black;
