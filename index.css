@@ -27,6 +27,9 @@ body {
 
 /* Configuração do cabeçalho */
 header {
+    position: fixed;
+    width: 100vw;
+    background-color: var(--corFundo);
     font-family: var(--fonte2);
     font-weight: bold;
     font-size: 1.125rem;
@@ -76,6 +79,7 @@ header .menu .contato img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 150px;
 }
 .apresentacao_texto {
     margin: 100px;
@@ -431,4 +435,9 @@ header .menu .contato img {
 }
 .espelhos_com_moldura a:hover {
     text-decoration: underline black;
+}
+
+/* Configuração do ícone do wpp */
+.wpp {
+    
 }
