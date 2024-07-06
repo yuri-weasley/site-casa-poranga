@@ -1,0 +1,81 @@
+/* Configuração da terceira section do main */
+
+.contatoELinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatoELinks .texto_contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+}
+.contatoELinks .texto_contato .paragrafo h1 {
+    font-family: var(--fonte1);
+    font-size: 2.625rem;
+    font-weight: 100;
+    text-align: center;
+}
+.contatoELinks .texto_contato .paragrafo h2, p {
+    font-family: var(--fonte2);
+    color: #545755;
+}
+.contatoELinks .texto_contato .paragrafo h2 {
+    margin-top: 40px;
+    font-weight: lighter;
+    font-size: 2rem;
+    text-align: justify;
+}
+.contatoELinks .texto_contato .paragrafo p {
+    margin: 20px 0px 0px 0px;
+    font-size: 1.25rem;
+}
+
+.contatoELinks .links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contatoELinks .links img.cartinha {
+    height: 15px;
+    width: 20px;
+}
+.contatoELinks .links img.pinterest {
+    border-radius: 4px;
+}
+.contatoELinks .links img {
+    margin-right: 20px;
+    height: 19px;
+    width: 20px;
+}
+.contatoELinks .links a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.contatoELinks .links a p {
+    color: #BA4B2F;
+    font-size: 1.312rem;
+    font-family: var(--fonte2);
+}
+.contatoELinks .links a:hover {
+    text-decoration: underline #BA4B2F;
+}
+
+.contatoELinks .texto_contato a.converse_conosco {
+    font-family: var(--fonte2);
+    font-size: 1.312rem;
+    text-decoration: none;
+    background-color: var(--laranjaClaro);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+.contatoELinks .texto_contato a.converse_conosco:hover {
+    text-decoration: underline white;
+}

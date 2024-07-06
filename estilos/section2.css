@@ -1,0 +1,124 @@
+/* Configuração da segunda section do main */
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 50px 100px 50px;
+}
+.produtos img {
+    height: auto;
+    width: 300px;
+}
+.produtos .setinha {
+    height: 30px;
+    width: 30px;
+}
+.produtos p {
+    color: black;
+}
+
+.produtos .espelhos {
+    display: flex;
+    flex-direction: column;
+}
+.produtos .espelhos .imagem_espelhos {
+    height: 330px;
+    width: 300px;
+}
+.produtos .espelhos .texto_espelhos {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--laranjaEscuro);
+    font-family: var(--fonte2);
+    font-size: 1.5rem;
+    border-radius: 0px 0px 20px 20px;
+}
+.produtos .espelhos .texto_espelhos a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FFA857;
+    border-radius: 30px;
+    padding: 10px;
+}
+.produtos .espelhos .texto_espelhos a:hover {
+    border: 0.4px solid white;
+}
+
+.produtos .estofados {
+    display: flex;
+    flex-direction: column;
+}
+.produtos .estofados .imagem_estofados {
+    height: 320px;
+    width: 300px;
+}
+.produtos .estofados .texto_estofados {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--rosaMedio);
+    font-family: var(--fonte2);
+    font-size: 1.5rem;
+    border-radius: 0px 0px 20px 20px;
+}
+.produtos .estofados .texto_estofados a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--rosaClaro);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.produtos .outros {
+    display: flex;
+    flex-direction: column;
+}
+.produtos .outros .imagem_outros {
+    height: 320px;
+    width: 300px;
+}
+.produtos .outros .texto_outros {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--verdeEscuro);
+    font-family: var(--fonte2);
+    font-size: 1.5rem;
+    border-radius: 0px 0px 20px 20px;
+}
+.produtos .outros .texto_outros a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--verdeClaro);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/*TABLETS*/
+
+@media screen and (max-width: 769px) {
+    .espelhos, .estofados, .outros {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .produtos img {
+        width: 14rem;
+        height: auto;
+    }
+    .texto_espelhos, .texto_estofados, .texto_outros {
+        width: 14rem;
+    }
+}

@@ -1,0 +1,55 @@
+/* Configuração da section 4 */
+
+.espelhos_organicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 30px 30px 30px;
+}
+.espelhos_organicos h1 {
+    font-size: 2.265rem;
+    margin-top: 34px;
+    margin-bottom: 40px;
+} 
+.espelhos_organicos ul {
+    font-family: var(--fonte2);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.espelhos_organicos ul li {
+    list-style-type: none;
+    margin: 20px 10px 20px 10px;
+}
+.espelhos_organicos ul li img {
+    border-radius: 60px;
+    height: 360px;
+    width: 244px;
+    margin-bottom: 15px;
+}
+.espelhos_organicos ul li h2 {
+    font-size: 1.25rem;
+}
+.espelhos_organicos ul li p {
+    color: black;
+    font-size: 1.125rem;
+}
+
+.espelhos_organicos a {
+    background-color: var(--rosaClaro);
+    color: black;
+    font-family: var(--fonte2);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 1.25rem;
+}
+.espelhos_organicos a:hover {
+    text-decoration: underline black;
+}
