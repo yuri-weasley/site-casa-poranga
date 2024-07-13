@@ -109,16 +109,5 @@
 /*TABLETS*/
 
 @media screen and (max-width: 769px) {
-    .espelhos, .estofados, .outros {
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-    }
-    .produtos img {
-        width: 14rem;
-        height: auto;
-    }
-    .texto_espelhos, .texto_estofados, .texto_outros {
-        width: 14rem;
-    }
+    
 }

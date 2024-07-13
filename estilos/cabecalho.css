@@ -28,14 +28,14 @@ header .menu a:hover {
     text-decoration: underline black;
 }
 header .menu .contato {
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     background-color: var(--rosaClaro);
     border-radius: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 15rem;
+    width: 9.7rem;
 }
 header .menu a.contato:hover {
     text-decoration: underline;
@@ -50,21 +50,5 @@ header .menu .contato img {
 /*TABLETS*/
 
 @media screen and (max-width: 769px) {
-    header {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        gap: 8rem;
-        border-bottom: 4px solid var(--laranjaEscuro);
-    }
-    header .menu a {
-        font-size: 1.2rem;
-    }
-    header .menu .contato img {
-        padding: 1rem;
-        width: 1rem;
-    }
+   
 }
