@@ -35,5 +35,7 @@ body {
 
 /* Configuração do ícone do wpp */
 .wpp {
-    
+    position: fixed;
+    top: 94%;
+    left: 97%;
 }

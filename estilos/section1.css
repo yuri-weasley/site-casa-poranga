@@ -8,10 +8,10 @@
     padding-top: 6rem;
 }
 .apresentacao_texto {
-    margin: 10rem;
+    margin: 9rem;
 }
 .apresentacao_imagem {
-    margin: 10rem;
+    margin: 9rem;
 }
 .apresentacao_imagem img {
     border-radius: 2rem;
@@ -31,7 +31,7 @@
 .apresentacao .botoes_apresentacao {
     display: flex;
     margin: 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .apresentacao .botoes_apresentacao a {
     margin: 1.5rem;
