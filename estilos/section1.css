@@ -63,6 +63,18 @@
 
 /*TABLETS*/
 
-@media screen and (max-width: 769px) {
-    
+@media screen and (max-width: 1880px) {
+   .apresentacao {
+    justify-content: space-around;
+    align-items: center;
+   }
+   .apresentacao_texto, .apresentacao_imagem {
+    margin: 9rem 5rem;
+   }
+   .apresentacao h1 {
+    font-size: 6rem;
+   }
+   .apresentacao_imagem img {
+    width: ;
+}
 }
