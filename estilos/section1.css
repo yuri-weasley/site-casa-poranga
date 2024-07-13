@@ -75,6 +75,8 @@
     font-size: 6rem;
    }
    .apresentacao_imagem img {
-    width: ;
-}
+    width: 400px;
+    height: auto;
+   }
+   
 }

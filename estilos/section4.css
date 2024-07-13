@@ -53,3 +53,11 @@
 .espelhos_organicos a:hover {
     text-decoration: underline black;
 }
+
+/*TABLETS*/
+
+@media screen and (max-width: 1880px) {
+    .espelhos_organicos ul {
+        flex-wrap: wrap;
+    }
+}

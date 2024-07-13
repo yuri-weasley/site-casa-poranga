@@ -51,6 +51,7 @@
 }
 
 .produtos .estofados {
+    margin: 2rem 0;
     display: flex;
     flex-direction: column;
 }
@@ -108,6 +109,8 @@
 
 /*TABLETS*/
 
-@media screen and (max-width: 769px) {
-    
+@media screen and (max-width: 1880px) {
+    .produtos {
+        flex-wrap: wrap;
+    }
 }

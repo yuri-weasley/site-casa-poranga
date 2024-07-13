@@ -79,3 +79,27 @@
 .contatoELinks .texto_contato a.converse_conosco:hover {
     text-decoration: underline white;
 }
+
+/*TABLETS*/
+
+@media screen and (max-width: 1880px) {
+    .texto_contato, .imagem_contato {
+        width: 50vw;
+    }
+    .imagem_contato img {
+        width: 540px;
+        height: auto;
+    }
+    .contatoELinks .texto_contato .paragrafo h1 {
+        font-size: 2rem;
+    }
+    .contatoELinks .texto_contato .paragrafo h2 {
+        font-size: 1.5rem;
+    }
+    .contatoELinks .texto_contato .paragrafo p {
+        font-size: 1rem;
+    }
+    .contatoELinks .links a p {
+        font-size: 1.2rem;
+    }
+}

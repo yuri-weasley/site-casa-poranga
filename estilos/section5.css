@@ -53,3 +53,11 @@
 .espelhos_com_moldura a:hover {
     text-decoration: underline black;
 }
+
+/*TABLETS*/
+
+@media screen and (max-width: 1880px) {
+    .espelhos_com_moldura ul {
+        flex-wrap: wrap;
+    }
+}
