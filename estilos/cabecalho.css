@@ -47,8 +47,32 @@ header .menu .contato img {
     padding: 1rem;
 }
 
-/*TABLETS*/
+/*MEDIA QUERIES*/
 
-@media screen and (max-width: 1880px) {
-   
+@media screen and (max-width: 1080px) {
+   .logo_casa_poranga {
+    width: 150px;
+    height: auto;
+   }
+   .menu a {
+    font-size: large;
+   }
+}
+
+@media screen and (max-width: 820px) {
+    header {
+        flex-direction: column;
+        padding: 3% 1% 0 1%;
+    }
+    .menu a {
+        font-size: .8rem;
+    }
+    header .menu .contato {
+        width: 7rem;
+    }
+    header .menu .contato img {
+        width: 20px;
+        padding: 1rem;
+        border-radius: 1.5rem;
+    }
 }

@@ -36,6 +36,19 @@ body {
 /* Configuração do ícone do wpp */
 .wpp {
     position: fixed;
-    top: 93%;
+    top: 92%;
     left: 96%;
+}
+
+@media screen and (max-width: 1080px) {
+    .wpp {
+        top: 93%;
+        left: 91%;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 1079px) {
+    .wpp {
+        top: 90%;
+        left: 93%;
+    }
 }

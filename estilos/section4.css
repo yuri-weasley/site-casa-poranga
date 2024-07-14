@@ -54,7 +54,7 @@
     text-decoration: underline black;
 }
 
-/*TABLETS*/
+/*MEDIA QUERIES*/
 
 @media screen and (max-width: 1880px) {
     .espelhos_organicos ul {

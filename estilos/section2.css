@@ -107,10 +107,11 @@
     padding: 10px;
 }
 
-/*TABLETS*/
+/*MEDIA QUERIES*/
 
-@media screen and (max-width: 1880px) {
+@media screen and (max-width: 1680px) {
     .produtos {
         flex-wrap: wrap;
+        margin: 5rem 1rem 5rem 1rem;
     }
 }
