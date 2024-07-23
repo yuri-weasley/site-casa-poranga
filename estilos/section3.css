@@ -113,7 +113,8 @@
     .imagem_contato img {
         width: 440px;
         height: auto;
-        margin: 4rem 1rem 1rem 1rem;
+        margin: 3rem 1rem 1rem 1rem;
+        padding: 0 10%;
     }
     .contatoELinks .texto_contato a.converse_conosco {
         padding: 10px;
@@ -122,10 +123,13 @@
 }
 
 @media screen and (max-width: 720px) {
+    .imagem_contato {
+        width: 100vw;
+        height: auto;
+    }
     .imagem_contato img {
       width: 340px;
       height: auto;
-      margin: 0;
-      
+      padding: 0 15%;
     }
 }
